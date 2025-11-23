@@ -1,0 +1,65 @@
+{
+  "transcript_path": "/mnt/data/Sample text for case study.txt",
+  "words": 133,
+  "duration_seconds_used": 52,
+  "wpm": 153.5,
+  "components": {
+    "salutation": {
+      "raw": 4,
+      "weight_points": 5,
+      "contribution": 4.0
+    },
+    "keyword_presence": {
+      "raw": 16,
+      "found_must": [
+        "class",
+        "school",
+        "family"
+      ],
+      "found_good": [
+        "interesting",
+        "fun fact"
+      ],
+      "weight_points": 30,
+      "contribution": 16.0
+    },
+    "flow": {
+      "raw": 0,
+      "weight_points": 5,
+      "contribution": 0.0
+    },
+    "speech_rate": {
+      "raw": 6,
+      "wpm": 153.5,
+      "weight_points": 10,
+      "contribution": 6.0
+    },
+    "grammar": {
+      "raw": 8,
+      "errors_per_100_words": 0.3,
+      "weight_points": 10,
+      "contribution": 8.0
+    },
+    "vocab_richness": {
+      "raw": 8,
+      "ttr": 0.649,
+      "weight_points": 10,
+      "contribution": 8.0
+    },
+    "filler_rate": {
+      "raw": 12,
+      "filler_percent": 0.0,
+      "weight_points": 15,
+      "contribution": 15.0
+    },
+    "engagement": {
+      "raw": 15,
+      "prob_pos": 1.0,
+      "pos_count": 1,
+      "neg_count": 0,
+      "weight_points": 15,
+      "contribution": 15.0
+    }
+  },
+  "overall_score_out_of_100": 72.0
+}
